@@ -1,0 +1,24 @@
+
+Sistema de Controle de Frota Aeroportuária
+
+Um sistema web especializado no gerenciamento, monitoramento e manutenção de veículos de apoio em solo (GSE - Ground Support Equipment) e frotas internas de aeroportos. Este projeto foi desenvolvido para otimizar a logística de pátio, garantir a segurança das operações aeroportuárias e controlar o fluxo de veículos que circulam nas áreas restritas.
+
+ Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+• HTML5 – Estruturação de formulários e dashboards operacionais.
+• CSS3 – Interface moderna, limpa e design totalmente responsivo.
+• PHP – Regras de negócio do lado do servidor e validações de segurança.
+• SQL – Modelagem de dados, consultas complexas e persistência (MySQL/MariaDB).
+
+ Funcionalidades Principais
+
+• Gestão de Equipamentos de Solo (GSE) – Controle de veículos especializados como pushbacks, tratores de bagagem, escadas móveis, caminhões de combustível e vans de tripulação.
+• Controle de Acesso e Credenciais – Monitoramento de motoristas autorizados a trafegar na área de movimentação de aeronaves (pátio e pistas) com controle de vencimento de credenciais aeroportuárias.
+• Status em Tempo Real – Indicação visual do estado de cada veículo (Disponível, Em Operação no Voo X, Em Manutenção, Abastecendo).
+• Manutenção Rígida – Histórico de revisões preventivas e corretivas com alertas baseados em horas de uso (horímetro) ou quilometragem para evitar falhas em pista.
+• Registro de Sinistros e Ocorrências – Área para reportar pequenos incidentes de pátio, danos a equipamentos ou irregularidades operacionais.
+
+ Como Executar o Projeto
+
+Para rodar este projeto localmente, você precisará de um ambiente de servidor local que suporte PHP e MySQL (como o XAMPP, WampServer ou Laragon).
