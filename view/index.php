@@ -18,13 +18,25 @@ if(isset($_SESSION['erro_login'])) {
     <title>Login  Jaci Celeste</title>
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body>
+<body style="background-image: url('../img/entrar.png'); 
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: contain;
+  min-height: 100vh;
+  margin: 0;">
+
+
+
+
+    
+
 
     <div class="fundo_login">
 
         <div class="caixa_login">
 
-            <h1 class="titulo_login">Jaci Celeste</h1>
+            <h1 class="titulo_login">Entre na sua conta</h1>
+            <h3 class="subtitulo_login">Acesse sua conta e prepare-se para o próximo destino.</h3>
 
             <?php if ($erro != "") { ?>
                 <div class="aviso_erro">
@@ -36,12 +48,12 @@ if(isset($_SESSION['erro_login'])) {
 
                 <div class="grupo_campo">
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" class="campo" required>
+                    <input type="email" name="email" id="email" class="campo" placeholder="voce@gmail.com" required>
                 </div>
 
                 <div class="grupo_campo">
                     <label for="senha">Senha</label>
-                    <input type="password" name="senha" id="senha" class="campo" required>
+                    <input type="password" name="senha" id="senha" class="campo" placeholder="Digite sua senha" required>
                 </div>
 
                 <button type="submit" class="botao_entrar">Entrar</button>
