@@ -68,6 +68,24 @@ body {
     left: 1%;
 }
 
+
+.titulo_criar {
+    position: fixed;
+    font-size: 90%;
+    color: #526275;
+    width: 30%;
+    margin-top: 2%;
+
+ 
+}
+
+.criar_conta {
+    margin-top: 10%;
+    margin-left: 90%;
+    width: 110%;
+
+}
+
 .aviso_erro {
     background-color: #fde2e2;
     color: #a12626;
@@ -119,3 +137,5 @@ body {
 .botao_entrar:hover {
     background-color: #c2400cae;
 }
+
+

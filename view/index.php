@@ -30,9 +30,6 @@ if(isset($_SESSION['erro_login'])) {
     <h3 class="subtitulo_entrar">Viaje pelo Brasil com mais conforto, leveza e liberdade para escolher o seu destino.</h3>
 
 
-    
-
-
     <div class="fundo_login">
 
         <div class="caixa_login">
@@ -59,6 +56,11 @@ if(isset($_SESSION['erro_login'])) {
                 </div>
 
                 <button type="submit" class="botao_entrar">Entrar</button>
+
+
+                <h3 class="titulo_criar">Ainda não tem conta?</h3>
+
+                <div type="submit" class="criar_conta"> Criar conta </div>
 
             </form>
 
