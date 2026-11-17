@@ -9,6 +9,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #eef2f7;
+    height: 100%;
+    overflow: hidden;
 }
 
 /* ========== LOGIN ========== */
@@ -22,13 +24,13 @@ body {
 }
 
 .caixa_login {
-    width: 100%;
+    width: 150%;
     max-width: 380px;
     background-color: #ffffff00;
     padding: 30px;
     border-radius: 10px;
     position: relative;
-    margin-left: 40%;
+    margin-left: 25%;
 
 }
 
@@ -46,6 +48,24 @@ body {
     font-size: 12px;
     color: #526275;
     margin-bottom: 25px;
+}
+
+.titulo_entrar {
+    position: fixed;
+    font-size: 230%;
+    color: #ffffff;
+    width: 30%;
+    bottom: 10%;
+    left: 1%;
+}
+
+.subtitulo_entrar {
+    position: fixed;
+    font-size: 100%;
+    color: #ffffff;
+    width: 35%;
+    bottom: 2%;
+    left: 1%;
 }
 
 .aviso_erro {
@@ -86,12 +106,12 @@ body {
 /* ========== BOTÕES ========== */
 
 .botao_entrar {
-    width: 100%;
-    padding: 12px;
+    width: 28%;
+    padding: 16px;
     background-color: #C2410C;
     color: #ffffff;
     border: none;
-    border-radius: 6px;
+    border-radius: 24px;
     font-size: 16px;
     cursor: pointer;
 }

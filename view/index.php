@@ -26,6 +26,8 @@ if(isset($_SESSION['erro_login'])) {
   margin: 0;">
 
 
+    <h1 class="titulo_entrar">Sua próxima história começa a bordo.</h1>
+    <h3 class="subtitulo_entrar">Viaje pelo Brasil com mais conforto, leveza e liberdade para escolher o seu destino.</h3>
 
 
     
