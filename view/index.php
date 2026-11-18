@@ -27,6 +27,28 @@ if(isset($_SESSION['erro_login'])) {
   margin: 0;
 ">
 
+<!-- Coloque isso logo abaixo da tag <body> -->
+<div style="
+  position: fixed;
+  top: 32px;
+  left: 32px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #1e293b;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  z-index: 10;
+">
+  <!-- Ícone simples de lua/avião em SVG (ou troque pela imagem do seu ícone) -->
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+    <circle cx="12" cy="12" r="10"/>
+    <path d="M12 7a5 5 0 1 0 5 5 4 4 0 0 1-5-5z"/>
+  </svg>
+  <span>Jaci Celeste</span>
+</div>
+
 
 
 
