@@ -18,12 +18,16 @@ if(isset($_SESSION['erro_login'])) {
     <title>Login  Jaci Celeste</title>
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
-<body style="background-image: url('../img/entrar.png'); 
+<body style="
+  background-image: url('../img/entrar.png');
   background-repeat: no-repeat;
-  background-position: left center;
-  background-size: contain;
+  background-position: left top;
+  background-size: 50vw 100vh;
   min-height: 100vh;
-  margin: 0;">
+  margin: 0;
+">
+
+
 
 
     <h1 class="titulo_entrar">Sua próxima história começa a bordo.</h1>
@@ -60,7 +64,7 @@ if(isset($_SESSION['erro_login'])) {
 
                 <h3 class="titulo_criar">Ainda não tem conta?</h3>
 
-                <div type="submit" class="criar_conta"> Criar conta </div>
+                <div type="submit" class="criar_conta"><a href="">Criar conta</a></div>
 
             </form>
 
